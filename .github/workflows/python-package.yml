@@ -25,6 +25,7 @@ jobs:
     - name: Run python_autofill.py
       run: |
          python python_autofill.py
+         python python_autofill_trial.py
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
       
