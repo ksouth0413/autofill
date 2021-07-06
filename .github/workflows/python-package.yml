@@ -4,7 +4,7 @@
 name: PythonGoogleForm_autofill
 on:
   schedule:
-    - cron: '0 5 1 5 *'
+    - cron: '0 0 0 0 *'
 
 
       
