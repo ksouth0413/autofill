@@ -4,7 +4,7 @@
 name: PythonGoogleForm_autofill
 on:
   schedule:
-    - cron: '30 4 * * *'
+    - cron: '0 2 * * *'
 
 
       
@@ -28,6 +28,7 @@ jobs:
         pip install requests        
         pip install twython
         pip install pillow
+        pip install time
     
     - name: Install ubuntu package # 우분투 관련 패키지도 설치한 후
       run: |        
