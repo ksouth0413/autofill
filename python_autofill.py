@@ -1,7 +1,8 @@
 from time import sleep
 from selenium import webdriver
 
-driver = webdriver.Chrome('/Applications/chromedriver')
+#instead of this >> driver = webdriver.Chrome('/Applications/chromedriver')
+driver = webdriver.Chrome('chromedriver', chrome_options=options)
 url = 'https://docs.google.com/forms/d/e/1FAIpQLScPXUcpuiFE00JLPYsABzE9tN005FSQAdQJ8A0af_POVZbi1w/viewform'
 driver.get(url)
 
